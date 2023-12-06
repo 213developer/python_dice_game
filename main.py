@@ -1,3 +1,4 @@
+#dice game
 import random
 
 dice_art = {
