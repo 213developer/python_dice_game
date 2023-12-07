@@ -40,7 +40,7 @@ def twoDice(dices):
 value = diceNumber()
 twoDice(value)
 
-# Here we will use the sum function in value to et the sun of two outcomes
+# Here we will use the sum function in value to get the sum of two outcomes
 sum_of_dices = sum(value)
 
 # Here we will check if the player is a winner when the sum equals 7 or 11 to
@@ -74,9 +74,9 @@ while result == "continue your game please":
 
 # When the player wins or loses the outcome will be printed here
 if result == "congratulations you won":
-    print("congratulations,you won")
+    print("You Win")
     print("You have a total of 1 Win")
 
 else:
-    print("you lost, \ntry again next time")
+    print("You Lose")
     print("You have a total of 1 Lose")
